@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638130962912963568
-    m_Hash: 2522340003
+      ticks: 638131784561333333
+    m_Hash: 544352341
   m_LockFileStatus:
     m_FilePath: C:/Users/Kurados/Documents/GitHub/RFSM/RFSM/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638130962913203432
-    m_Hash: 2788309808
+      ticks: 638131784561343334
+    m_Hash: 1185299648
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
