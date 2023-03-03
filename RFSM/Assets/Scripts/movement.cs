@@ -10,6 +10,7 @@ public class movement : MonoBehaviour
     private Vector3 moveDirection;
     private Rigidbody rb;
 
+
     public float sprintMultiplier = 2f;
     public float dashForce = 10f;
     public float dashCooldown = 2f;
@@ -28,6 +29,8 @@ public class movement : MonoBehaviour
     {
         handleMovement();
         handleAnimation();
+
+
     }
 
     void handleMovement()
@@ -68,8 +71,13 @@ public class movement : MonoBehaviour
     }
     void handleAnimation()
     {
+       
+
         PlayerAnim.SetFloat("Speed", moveDirection.magnitude);
         //PlayerAnim.SetFloat("mX", xInput);
         // PlayerAnim.SetFloat("mY", yInput);
+
+        //For attack animation
+        
     }
 }

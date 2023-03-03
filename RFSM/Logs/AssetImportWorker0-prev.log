@@ -1,0 +1,3219 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.20f1 (41c4e627c95f) revision 4310246'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19044.2604; Version 2009; 64bit' Language: 'en' Physical Memory: 12126 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Unity\2020.3.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Unity/OJT/Lamina - RFSM/Github/RFSM/RFSM
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51664
+Successfully changed project path to: C:/Unity/OJT/Lamina - RFSM/Github/RFSM/RFSM
+C:/Unity/OJT/Lamina - RFSM/Github/RFSM/RFSM
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 95.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.20f1 (41c4e627c95f)
+[Subsystems] Discovering subsystems at path C:/Unity/2020.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Unity/OJT/Lamina - RFSM/Github/RFSM/RFSM/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 620 (ID=0x5921)
+    Vendor:   
+    VRAM:     6063 MB
+    Driver:   31.0.101.2114
+Initialize mono
+Mono path[0] = 'C:/Unity/2020.3.20f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Unity/2020.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Unity/2020.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56516
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Unity/2020.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002930 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 110.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.716 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3716ms)
+		BeginReloadAssembly (97ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (776ms)
+			LoadAssemblies (94ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (263ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (342ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (110ms)
+				BeforeProcessingInitializeOnLoad (26ms)
+				ProcessInitializeOnLoadAttributes (145ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006848 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000016271B37E40 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016271D65220 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001626F7E9C20 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 95.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.981 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1982ms)
+		BeginReloadAssembly (246ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (1624ms)
+			LoadAssemblies (158ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (547ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (90ms)
+			SetupLoadedEditorAssemblies (624ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (96ms)
+				BeforeProcessingInitializeOnLoad (160ms)
+				ProcessInitializeOnLoadAttributes (341ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2900 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 132.5 MB.
+System memory in use after: 132.7 MB.
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 3337.
+Total: 5.562500 ms (FindLiveObjects: 0.528000 ms CreateObjectMapping: 0.339100 ms MarkObjects: 4.577200 ms  DeleteObjects: 0.116500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Enemy ExampleAssets/Idle.anim
+  artifactKey: Guid(043511fe6a7129f428b4771cff864898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy ExampleAssets/Idle.anim using Guid(043511fe6a7129f428b4771cff864898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91e6131002345eaa84c08fc0e41ac03d') in 0.097894 seconds 
+  Import took 0.108914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.402552 seconds.
+  path: Assets/Enemy ExampleAssets/HIt.anim
+  artifactKey: Guid(043511fe6a7129f428b4771cff864898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy ExampleAssets/HIt.anim using Guid(043511fe6a7129f428b4771cff864898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6f0192b5381be93634e53c0be5da7c4') in 0.032193 seconds 
+  Import took 0.043722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.236264 seconds.
+  path: Assets/Enemy ExampleAssets/HIt 1.anim
+  artifactKey: Guid(c3ba7c5b18b889e4cb8575cf48e0aefe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy ExampleAssets/HIt 1.anim using Guid(c3ba7c5b18b889e4cb8575cf48e0aefe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0e4a700489a4b7ee4f783ca464854e6') in 0.028096 seconds 
+  Import took 0.038966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.994868 seconds.
+  path: Assets/Enemy ExampleAssets/Death.anim
+  artifactKey: Guid(c3ba7c5b18b889e4cb8575cf48e0aefe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy ExampleAssets/Death.anim using Guid(c3ba7c5b18b889e4cb8575cf48e0aefe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7f7bd2a990fa483b08a1656d30bfe6a') in 0.027624 seconds 
+  Import took 0.037203 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 362.241102 seconds.
+  path: Assets/Enemy ExampleAssets/FreeCharacter_controller.controller
+  artifactKey: Guid(3c90d75d090136b429461873af7f9f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy ExampleAssets/FreeCharacter_controller.controller using Guid(3c90d75d090136b429461873af7f9f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b97fd6a3c5c815170f47f5161624ec42') in 0.043894 seconds 
+  Import took 0.053982 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.211170 seconds.
+  path: Assets/Enemy ExampleAssets/Death.anim
+  artifactKey: Guid(c3ba7c5b18b889e4cb8575cf48e0aefe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy ExampleAssets/Death.anim using Guid(c3ba7c5b18b889e4cb8575cf48e0aefe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 1.806411 seconds  code(4) message(Build asset version error: assets/enemy exampleassets/death.anim in SourceAssetDB has modification time of '2023-03-03T13:59:58.0170387Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff61bf87c1c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff61bf902b9 (Unity) StackWalker::ShowCallstack
+0x00007ff61d4b45bc (Unity) GetStacktrace
+0x00007ff61d697a27 (Unity) GetAssetHashAndValidate
+0x00007ff61d692bf3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff61d690b62 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff61d66af7d (Unity) CreateAssetVersionBuilder
+0x00007ff61d671c7d (Unity) ImportToObjects
+0x00007ff61d670a98 (Unity) ImportAsset
+0x00007ff61d5d27f8 (Unity) AssetImportWorker::Import
+0x00007ff61d625b8a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff61d6ca262 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff61d6cc3c0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff61d6cfb4e (Unity) asio::io_service::run
+0x00007ff61d6529eb (Unity) RunAssetImportWorkerClientV2
+0x00007ff61d652a40 (Unity) RunAssetImporterV2
+0x00007ff61cb16616 (Unity) Application::InitializeProject
+0x00007ff61d4c1b22 (Unity) WinMain
+0x00007ff61f3192b6 (Unity) __scrt_common_main_seh
+0x00007ff9c84a7614 (KERNEL32) BaseThreadInitThunk
+0x00007ff9c85e26a1 (ntdll) RtlUserThreadStart
+)
+  ERROR: Build asset version error: assets/enemy exampleassets/death.anim in SourceAssetDB has modification time of '2023-03-03T13:59:58.0170387Z' while content on disk has modification time of '0001-01-01T00:00:00Z' with error code 2
+Stacktrace:
+0x00007ff61bf87c1c (Unity) StackWalker::GetCurrentCallstack
+0x00007ff61bf902b9 (Unity) StackWalker::ShowCallstack
+0x00007ff61d4b45bc (Unity) GetStacktrace
+0x00007ff61d697a27 (Unity) GetAssetHashAndValidate
+0x00007ff61d692bf3 (Unity) AssetVersionBuilder::BuildHashOfSourceAssetArray
+0x00007ff61d690b62 (Unity) AssetVersionBuilder::BuildAssetVersion
+0x00007ff61d66af7d (Unity) CreateAssetVersionBuilder
+0x00007ff61d671c7d (Unity) ImportToObjects
+0x00007ff61d670a98 (Unity) ImportAsset
+0x00007ff61d5d27f8 (Unity) AssetImportWorker::Import
+0x00007ff61d625b8a (Unity) <lambda_7448d646502792db0127dc89657ec83e>::operator()
+0x00007ff61d6ca262 (Unity) asio::detail::completion_handler<core::mutable_function<void __cdecl(void)> >::do_complete
+0x00007ff61d6cc3c0 (Unity) asio::detail::win_iocp_io_service::do_one
+0x00007ff61d6cfb4e (Unity) asio::io_service::run
+0x00007ff61d6529eb (Unity) RunAssetImportWorkerClientV2
+0x00007ff61d652a40 (Unity) RunAssetImporterV2
+0x00007ff61cb16616 (Unity) Application::InitializeProject
+0x00007ff61d4c1b22 (Unity) WinMain
+0x00007ff61f3192b6 (Unity) __scrt_common_main_seh
+0x00007ff9c84a7614 (KERNEL32) BaseThreadInitThunk
+0x00007ff9c85e26a1 (ntdll) RtlUserThreadStart
+
+  Import took 1.812968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 318.992142 seconds.
+  path: Assets/Enemy ExampleAssets/Idle.anim
+  artifactKey: Guid(d192efac80494ce4cae4ca20adcaad24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy ExampleAssets/Idle.anim using Guid(d192efac80494ce4cae4ca20adcaad24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f14b6b64e44aafed5ab63152445958d') in 0.028108 seconds 
+  Import took 0.038680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 289.224207 seconds.
+  path: Assets/Enemy ExampleAssets/hit.anim
+  artifactKey: Guid(d192efac80494ce4cae4ca20adcaad24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy ExampleAssets/hit.anim using Guid(d192efac80494ce4cae4ca20adcaad24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ee68f700e086d63d5e727cc021ad261') in 0.026552 seconds 
+  Import took 0.041013 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007570 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001626F419900 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016275B82050 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000162722A7250 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.661 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4661ms)
+		BeginReloadAssembly (242ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (4293ms)
+			LoadAssemblies (210ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (2133ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (230ms)
+			SetupLoadedEditorAssemblies (1299ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (541ms)
+				ProcessInitializeOnLoadAttributes (683ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (52ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (39ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2776 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.9 MB.
+System memory in use after: 124.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3339.
+Total: 7.861400 ms (FindLiveObjects: 0.718400 ms CreateObjectMapping: 0.303300 ms MarkObjects: 6.783200 ms  DeleteObjects: 0.053900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008145 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000016273CE5030 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000162A50AF430 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016277023540 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.21 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.201 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3202ms)
+		BeginReloadAssembly (578ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (100ms)
+		EndReloadAssembly (2497ms)
+			LoadAssemblies (201ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (838ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (91ms)
+			SetupLoadedEditorAssemblies (1126ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (203ms)
+				ProcessInitializeOnLoadAttributes (883ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (30ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2776 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.9 MB.
+System memory in use after: 124.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3341.
+Total: 6.536800 ms (FindLiveObjects: 0.589300 ms CreateObjectMapping: 0.302700 ms MarkObjects: 5.590000 ms  DeleteObjects: 0.052300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005499 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001626F419900 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016275B82050 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016277023540 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.958 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2960ms)
+		BeginReloadAssembly (286ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (77ms)
+		EndReloadAssembly (2553ms)
+			LoadAssemblies (408ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (710ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (117ms)
+			SetupLoadedEditorAssemblies (1040ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (169ms)
+				ProcessInitializeOnLoadAttributes (827ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (20ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (48ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.50 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2776 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 123.9 MB.
+System memory in use after: 124.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3343.
+Total: 10.297100 ms (FindLiveObjects: 0.456800 ms CreateObjectMapping: 0.306300 ms MarkObjects: 9.418300 ms  DeleteObjects: 0.112800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 744.468811 seconds.
+  path: Assets/Enemy ExampleAssets/FreeCharacter_controller.controller
+  artifactKey: Guid(3c90d75d090136b429461873af7f9f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemy ExampleAssets/FreeCharacter_controller.controller using Guid(3c90d75d090136b429461873af7f9f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27435bc2de3881a22a66962ced55c294') in 0.062515 seconds 
+  Import took 0.071792 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006126 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000016277066EC0 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016275B82050 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016277023540 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.110 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2111ms)
+		BeginReloadAssembly (289ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (93ms)
+		EndReloadAssembly (1677ms)
+			LoadAssemblies (224ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (630ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (584ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (168ms)
+				ProcessInitializeOnLoadAttributes (387ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2777 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.0 MB.
+System memory in use after: 124.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3346.
+Total: 8.477100 ms (FindLiveObjects: 0.760300 ms CreateObjectMapping: 0.532000 ms MarkObjects: 7.067000 ms  DeleteObjects: 0.115100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009843 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000016276742020 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001626FA57020 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016277023540 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.444 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2445ms)
+		BeginReloadAssembly (232ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (71ms)
+		EndReloadAssembly (2060ms)
+			LoadAssemblies (286ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (682ms)
+			ReleaseScriptCaches (8ms)
+			RebuildScriptCaches (97ms)
+			SetupLoadedEditorAssemblies (577ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (189ms)
+				ProcessInitializeOnLoadAttributes (361ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2777 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.0 MB.
+System memory in use after: 124.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3348.
+Total: 5.203700 ms (FindLiveObjects: 0.361000 ms CreateObjectMapping: 0.216900 ms MarkObjects: 4.586800 ms  DeleteObjects: 0.037000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007366 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000016276742020 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001626FA57020 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016277023540 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.266 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2266ms)
+		BeginReloadAssembly (205ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (69ms)
+		EndReloadAssembly (1901ms)
+			LoadAssemblies (194ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (686ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (101ms)
+			SetupLoadedEditorAssemblies (672ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (194ms)
+				ProcessInitializeOnLoadAttributes (444ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2777 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.0 MB.
+System memory in use after: 124.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3350.
+Total: 6.932900 ms (FindLiveObjects: 0.396600 ms CreateObjectMapping: 0.236200 ms MarkObjects: 6.251400 ms  DeleteObjects: 0.046900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006045 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000162A566E040 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016275B82050 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016277023540 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.32 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.170 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3171ms)
+		BeginReloadAssembly (296ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (17ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (91ms)
+		EndReloadAssembly (2684ms)
+			LoadAssemblies (265ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1163ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (152ms)
+			SetupLoadedEditorAssemblies (815ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (238ms)
+				ProcessInitializeOnLoadAttributes (531ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
+				AfterProcessingInitializeOnLoad (21ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.16 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2777 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.0 MB.
+System memory in use after: 124.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3352.
+Total: 5.821000 ms (FindLiveObjects: 1.281100 ms CreateObjectMapping: 0.240500 ms MarkObjects: 4.252900 ms  DeleteObjects: 0.044600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005898 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000162727EC050 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016275B82050 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016277023540 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.434 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2434ms)
+		BeginReloadAssembly (563ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (69ms)
+		EndReloadAssembly (1726ms)
+			LoadAssemblies (187ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (688ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (568ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (176ms)
+				ProcessInitializeOnLoadAttributes (366ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2777 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.0 MB.
+System memory in use after: 124.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3354.
+Total: 5.120600 ms (FindLiveObjects: 0.364500 ms CreateObjectMapping: 0.246500 ms MarkObjects: 4.473400 ms  DeleteObjects: 0.034600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006188 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000162767E7000 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016275B82050 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016277023540 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.269 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2270ms)
+		BeginReloadAssembly (231ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (1878ms)
+			LoadAssemblies (290ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (653ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (105ms)
+			SetupLoadedEditorAssemblies (605ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (165ms)
+				ProcessInitializeOnLoadAttributes (412ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2777 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.0 MB.
+System memory in use after: 124.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3356.
+Total: 5.364800 ms (FindLiveObjects: 0.467200 ms CreateObjectMapping: 0.271600 ms MarkObjects: 4.589800 ms  DeleteObjects: 0.034200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1620.864133 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb8dd5f4dbb2928237c18393c983ce7f') in 0.034699 seconds 
+  Import took 0.044190 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011940 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000162A8F76020 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016276C44010 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016277023540 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.010 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3011ms)
+		BeginReloadAssembly (290ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (23ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (75ms)
+		EndReloadAssembly (2576ms)
+			LoadAssemblies (238ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (887ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (97ms)
+			SetupLoadedEditorAssemblies (712ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (201ms)
+				ProcessInitializeOnLoadAttributes (474ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.14 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2777 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.0 MB.
+System memory in use after: 124.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 3358.
+Total: 6.015300 ms (FindLiveObjects: 1.344800 ms CreateObjectMapping: 0.459600 ms MarkObjects: 4.173200 ms  DeleteObjects: 0.029600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005535 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000016277066EC0 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016276C44010 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016277023540 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.440 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2441ms)
+		BeginReloadAssembly (249ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (2037ms)
+			LoadAssemblies (228ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (801ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (94ms)
+			SetupLoadedEditorAssemblies (670ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (208ms)
+				ProcessInitializeOnLoadAttributes (433ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2777 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.0 MB.
+System memory in use after: 124.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3360.
+Total: 5.090200 ms (FindLiveObjects: 0.440400 ms CreateObjectMapping: 0.268900 ms MarkObjects: 4.352100 ms  DeleteObjects: 0.027300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005657 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000162767E7000 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016276C44010 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016277023540 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.889 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1890ms)
+		BeginReloadAssembly (191ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (1585ms)
+			LoadAssemblies (165ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (561ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (576ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (169ms)
+				ProcessInitializeOnLoadAttributes (380ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2777 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.0 MB.
+System memory in use after: 124.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3362.
+Total: 4.953700 ms (FindLiveObjects: 0.370900 ms CreateObjectMapping: 0.224400 ms MarkObjects: 4.322500 ms  DeleteObjects: 0.034300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006314 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001626F3A7030 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016276C44010 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016276942230 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.074 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3078ms)
+		BeginReloadAssembly (284ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (18ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (72ms)
+		EndReloadAssembly (2624ms)
+			LoadAssemblies (240ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (609ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (1420ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (620ms)
+				ProcessInitializeOnLoadAttributes (741ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (31ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (54ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2777 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.0 MB.
+System memory in use after: 124.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3364.
+Total: 5.286500 ms (FindLiveObjects: 0.517600 ms CreateObjectMapping: 0.257600 ms MarkObjects: 4.474700 ms  DeleteObjects: 0.033700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005402 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000016277066EC0 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016276C44010 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016276942230 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.142 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2143ms)
+		BeginReloadAssembly (268ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (78ms)
+		EndReloadAssembly (1719ms)
+			LoadAssemblies (223ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (612ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (87ms)
+			SetupLoadedEditorAssemblies (614ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (171ms)
+				ProcessInitializeOnLoadAttributes (414ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2777 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.1 MB.
+System memory in use after: 124.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3366.
+Total: 5.429000 ms (FindLiveObjects: 0.428000 ms CreateObjectMapping: 0.306600 ms MarkObjects: 4.657800 ms  DeleteObjects: 0.033100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008471 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000016277066EC0 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016276C44010 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016276942230 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.263 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2264ms)
+		BeginReloadAssembly (231ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (1895ms)
+			LoadAssemblies (196ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (742ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (92ms)
+			SetupLoadedEditorAssemblies (600ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (209ms)
+				ProcessInitializeOnLoadAttributes (363ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.73 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2777 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.1 MB.
+System memory in use after: 124.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3368.
+Total: 5.938000 ms (FindLiveObjects: 0.407800 ms CreateObjectMapping: 0.230400 ms MarkObjects: 5.261600 ms  DeleteObjects: 0.036600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006692 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000162A8F76020 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016276C44010 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016276942230 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.292 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2293ms)
+		BeginReloadAssembly (279ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (104ms)
+		EndReloadAssembly (1839ms)
+			LoadAssemblies (215ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (757ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (575ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (169ms)
+				ProcessInitializeOnLoadAttributes (375ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.20 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2777 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.1 MB.
+System memory in use after: 124.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3370.
+Total: 5.544800 ms (FindLiveObjects: 0.557400 ms CreateObjectMapping: 0.293100 ms MarkObjects: 4.660100 ms  DeleteObjects: 0.031900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006570 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000162A8F76020 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016276C44010 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016276942230 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.126 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2127ms)
+		BeginReloadAssembly (225ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (1763ms)
+			LoadAssemblies (231ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (599ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (659ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (160ms)
+				ProcessInitializeOnLoadAttributes (473ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.27 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2777 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.1 MB.
+System memory in use after: 124.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3372.
+Total: 5.089400 ms (FindLiveObjects: 0.417300 ms CreateObjectMapping: 0.227700 ms MarkObjects: 4.399700 ms  DeleteObjects: 0.042100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005867 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000016272540E00 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016276C44010 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016276942230 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.015 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3016ms)
+		BeginReloadAssembly (221ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (19ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (71ms)
+		EndReloadAssembly (2663ms)
+			LoadAssemblies (165ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (627ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (1032ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (269ms)
+				ProcessInitializeOnLoadAttributes (667ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (67ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (97ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.12 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2777 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.1 MB.
+System memory in use after: 124.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3374.
+Total: 4.873300 ms (FindLiveObjects: 0.393600 ms CreateObjectMapping: 0.214600 ms MarkObjects: 4.228100 ms  DeleteObjects: 0.034500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008205 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000016274D06010 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016276C44010 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016276942230 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.061 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2062ms)
+		BeginReloadAssembly (230ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (1690ms)
+			LoadAssemblies (224ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (589ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (580ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (166ms)
+				ProcessInitializeOnLoadAttributes (385ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2777 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.1 MB.
+System memory in use after: 124.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3376.
+Total: 6.228300 ms (FindLiveObjects: 0.393900 ms CreateObjectMapping: 0.210600 ms MarkObjects: 5.590000 ms  DeleteObjects: 0.032100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008556 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000016272292C70 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016276C44010 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016277023540 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.798 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2798ms)
+		BeginReloadAssembly (184ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (2474ms)
+			LoadAssemblies (184ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1202ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (95ms)
+			SetupLoadedEditorAssemblies (705ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (211ms)
+				ProcessInitializeOnLoadAttributes (460ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2777 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.1 MB.
+System memory in use after: 124.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3378.
+Total: 4.893800 ms (FindLiveObjects: 0.368100 ms CreateObjectMapping: 0.198700 ms MarkObjects: 4.288100 ms  DeleteObjects: 0.037200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006560 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000016272292C70 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016276C44010 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016277023540 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.575 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2576ms)
+		BeginReloadAssembly (193ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (2265ms)
+			LoadAssemblies (162ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (987ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (107ms)
+			SetupLoadedEditorAssemblies (707ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (232ms)
+				ProcessInitializeOnLoadAttributes (446ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2777 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.1 MB.
+System memory in use after: 124.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3380.
+Total: 5.152600 ms (FindLiveObjects: 0.380700 ms CreateObjectMapping: 0.290700 ms MarkObjects: 4.441600 ms  DeleteObjects: 0.037800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005897 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000162A8F76020 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016276C44010 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016276942230 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.29 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.761 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2762ms)
+		BeginReloadAssembly (175ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (2484ms)
+			LoadAssemblies (162ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (535ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (76ms)
+			SetupLoadedEditorAssemblies (845ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (268ms)
+				ProcessInitializeOnLoadAttributes (524ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (20ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (27ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2777 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.1 MB.
+System memory in use after: 124.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3382.
+Total: 6.713900 ms (FindLiveObjects: 0.584000 ms CreateObjectMapping: 0.310100 ms MarkObjects: 5.786100 ms  DeleteObjects: 0.031100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008182 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000162A8F76020 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016276C44010 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016277023540 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.33 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.195 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2196ms)
+		BeginReloadAssembly (261ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (101ms)
+		EndReloadAssembly (1788ms)
+			LoadAssemblies (223ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (665ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (85ms)
+			SetupLoadedEditorAssemblies (586ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (167ms)
+				ProcessInitializeOnLoadAttributes (387ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2777 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.1 MB.
+System memory in use after: 124.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3384.
+Total: 6.477400 ms (FindLiveObjects: 0.490800 ms CreateObjectMapping: 0.233800 ms MarkObjects: 5.722700 ms  DeleteObjects: 0.028600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007975 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001626F3A7030 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016276C44010 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016277023540 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.41 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.103 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2104ms)
+		BeginReloadAssembly (217ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (67ms)
+		EndReloadAssembly (1746ms)
+			LoadAssemblies (201ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (667ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (104ms)
+			SetupLoadedEditorAssemblies (585ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (186ms)
+				ProcessInitializeOnLoadAttributes (369ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (2ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2777 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.1 MB.
+System memory in use after: 124.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3386.
+Total: 7.497800 ms (FindLiveObjects: 0.505700 ms CreateObjectMapping: 0.263000 ms MarkObjects: 6.693900 ms  DeleteObjects: 0.033600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008792 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-000001626F3A7030 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016276C44010 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016272303010 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.909 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4909ms)
+		BeginReloadAssembly (238ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (69ms)
+		EndReloadAssembly (4526ms)
+			LoadAssemblies (201ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1801ms)
+			ReleaseScriptCaches (14ms)
+			RebuildScriptCaches (226ms)
+			SetupLoadedEditorAssemblies (1336ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (361ms)
+				ProcessInitializeOnLoadAttributes (923ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (20ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (61ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2777 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.1 MB.
+System memory in use after: 124.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3388.
+Total: 6.624000 ms (FindLiveObjects: 0.642500 ms CreateObjectMapping: 0.319600 ms MarkObjects: 5.613300 ms  DeleteObjects: 0.045600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007273 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000162737846A0 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016276C44010 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016271B7A030 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.52 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.141 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2142ms)
+		BeginReloadAssembly (249ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (20ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (75ms)
+		EndReloadAssembly (1781ms)
+			LoadAssemblies (199ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (580ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (103ms)
+			SetupLoadedEditorAssemblies (652ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (193ms)
+				ProcessInitializeOnLoadAttributes (408ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
+				AfterProcessingInitializeOnLoad (21ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (29ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2777 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.1 MB.
+System memory in use after: 124.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3390.
+Total: 6.323000 ms (FindLiveObjects: 0.382500 ms CreateObjectMapping: 0.220200 ms MarkObjects: 5.687300 ms  DeleteObjects: 0.031200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017286 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000162A9900460 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016276C44010 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016276AC8430 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.493 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2494ms)
+		BeginReloadAssembly (212ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (27ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (49ms)
+		EndReloadAssembly (2170ms)
+			LoadAssemblies (156ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (931ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (101ms)
+			SetupLoadedEditorAssemblies (671ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (240ms)
+				ProcessInitializeOnLoadAttributes (405ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2778 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.1 MB.
+System memory in use after: 124.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3393.
+Total: 6.701500 ms (FindLiveObjects: 0.378400 ms CreateObjectMapping: 0.206100 ms MarkObjects: 6.077400 ms  DeleteObjects: 0.037800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007121 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000162A9900460 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016276C44010 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016271B7A030 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.942 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1943ms)
+		BeginReloadAssembly (211ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (68ms)
+		EndReloadAssembly (1556ms)
+			LoadAssemblies (195ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (552ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (537ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (168ms)
+				ProcessInitializeOnLoadAttributes (343ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.22 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2778 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.2 MB.
+System memory in use after: 124.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3395.
+Total: 6.039500 ms (FindLiveObjects: 0.599800 ms CreateObjectMapping: 0.511200 ms MarkObjects: 4.877200 ms  DeleteObjects: 0.048200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007068 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000162769D1E20 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016276C44010 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016276AC8430 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.932 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1933ms)
+		BeginReloadAssembly (208ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (1599ms)
+			LoadAssemblies (186ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (596ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (77ms)
+			SetupLoadedEditorAssemblies (530ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (157ms)
+				ProcessInitializeOnLoadAttributes (343ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2778 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.2 MB.
+System memory in use after: 124.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3397.
+Total: 5.647200 ms (FindLiveObjects: 0.387700 ms CreateObjectMapping: 0.230000 ms MarkObjects: 4.996100 ms  DeleteObjects: 0.031200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012883 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000162A9874260 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016276C44010 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-000001626F7FA650 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.256 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2257ms)
+		BeginReloadAssembly (237ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (62ms)
+		EndReloadAssembly (1852ms)
+			LoadAssemblies (177ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (709ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (105ms)
+			SetupLoadedEditorAssemblies (626ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (166ms)
+				ProcessInitializeOnLoadAttributes (432ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.77 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2778 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.2 MB.
+System memory in use after: 124.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3399.
+Total: 9.271400 ms (FindLiveObjects: 0.710300 ms CreateObjectMapping: 0.462500 ms MarkObjects: 8.051400 ms  DeleteObjects: 0.044800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008040 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000162A9874260 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016276C44010 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000162750E4070 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.107 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3107ms)
+		BeginReloadAssembly (287ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (83ms)
+		EndReloadAssembly (2630ms)
+			LoadAssemblies (257ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (975ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (136ms)
+			SetupLoadedEditorAssemblies (917ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (252ms)
+				ProcessInitializeOnLoadAttributes (622ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (34ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2778 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.2 MB.
+System memory in use after: 124.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3401.
+Total: 5.445600 ms (FindLiveObjects: 0.411600 ms CreateObjectMapping: 0.271900 ms MarkObjects: 4.722100 ms  DeleteObjects: 0.038300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007696 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000162A9874260 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016276C44010 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016276695EF0 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.104 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2105ms)
+		BeginReloadAssembly (185ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (1803ms)
+			LoadAssemblies (158ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (658ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (115ms)
+			SetupLoadedEditorAssemblies (634ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (171ms)
+				ProcessInitializeOnLoadAttributes (432ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2778 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.2 MB.
+System memory in use after: 124.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3403.
+Total: 6.993600 ms (FindLiveObjects: 0.407000 ms CreateObjectMapping: 0.206200 ms MarkObjects: 6.348600 ms  DeleteObjects: 0.030300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005784 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000162A9874260 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016276C44010 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016276695EF0 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.979 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1979ms)
+		BeginReloadAssembly (201ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (1659ms)
+			LoadAssemblies (172ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (613ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (587ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (166ms)
+				ProcessInitializeOnLoadAttributes (395ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2778 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.2 MB.
+System memory in use after: 124.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3405.
+Total: 6.871400 ms (FindLiveObjects: 1.535200 ms CreateObjectMapping: 0.358400 ms MarkObjects: 4.936200 ms  DeleteObjects: 0.028300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.012487 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000162A9874260 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016276C44010 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016276695EF0 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.576 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2577ms)
+		BeginReloadAssembly (223ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (60ms)
+		EndReloadAssembly (2206ms)
+			LoadAssemblies (232ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (691ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (87ms)
+			SetupLoadedEditorAssemblies (1011ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (153ms)
+				ProcessInitializeOnLoadAttributes (820ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (19ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2778 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.2 MB.
+System memory in use after: 124.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3407.
+Total: 23.713800 ms (FindLiveObjects: 0.633900 ms CreateObjectMapping: 0.330700 ms MarkObjects: 22.702100 ms  DeleteObjects: 0.044100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007914 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000162A9874260 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016276C44010 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016276695EF0 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.145 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2146ms)
+		BeginReloadAssembly (223ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (56ms)
+		EndReloadAssembly (1771ms)
+			LoadAssemblies (206ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (667ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (617ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (169ms)
+				ProcessInitializeOnLoadAttributes (421ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (26ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2778 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.2 MB.
+System memory in use after: 124.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3409.
+Total: 5.529300 ms (FindLiveObjects: 0.468700 ms CreateObjectMapping: 0.268600 ms MarkObjects: 4.759800 ms  DeleteObjects: 0.030500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005651 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000162A9CEF000 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016276C44010 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016276695EF0 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.870 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1871ms)
+		BeginReloadAssembly (188ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (55ms)
+		EndReloadAssembly (1540ms)
+			LoadAssemblies (168ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (560ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (535ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (155ms)
+				ProcessInitializeOnLoadAttributes (352ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2778 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.2 MB.
+System memory in use after: 124.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3411.
+Total: 5.585000 ms (FindLiveObjects: 0.404400 ms CreateObjectMapping: 0.178400 ms MarkObjects: 4.965300 ms  DeleteObjects: 0.035100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014152 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000162753A5050 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016276C44010 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016276695EF0 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.30 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.219 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3220ms)
+		BeginReloadAssembly (287ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (86ms)
+		EndReloadAssembly (2739ms)
+			LoadAssemblies (281ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (964ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (123ms)
+			SetupLoadedEditorAssemblies (1008ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (343ms)
+				ProcessInitializeOnLoadAttributes (621ms)
+				ProcessInitializeOnLoadMethodAttributes (9ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (32ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.26 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2778 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.2 MB.
+System memory in use after: 124.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3413.
+Total: 30.915000 ms (FindLiveObjects: 0.630100 ms CreateObjectMapping: 0.315600 ms MarkObjects: 29.920900 ms  DeleteObjects: 0.045400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005746 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000162753A5050 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016276C44010 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016276695EF0 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.728 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1728ms)
+		BeginReloadAssembly (165ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (1461ms)
+			LoadAssemblies (140ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (538ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (499ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (157ms)
+				ProcessInitializeOnLoadAttributes (317ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2778 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.2 MB.
+System memory in use after: 124.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3415.
+Total: 6.092400 ms (FindLiveObjects: 0.505800 ms CreateObjectMapping: 0.371100 ms MarkObjects: 5.178900 ms  DeleteObjects: 0.034200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006531 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000162753A5050 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016276C44010 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000162A9A8AC60 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.729 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1730ms)
+		BeginReloadAssembly (173ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (1454ms)
+			LoadAssemblies (146ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (518ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (514ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (154ms)
+				ProcessInitializeOnLoadAttributes (334ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2778 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 124.2 MB.
+System memory in use after: 124.4 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3417.
+Total: 5.409000 ms (FindLiveObjects: 0.538300 ms CreateObjectMapping: 0.256600 ms MarkObjects: 4.577400 ms  DeleteObjects: 0.030100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3848.908458 seconds.
+  path: Assets/SimpleNaturePack/Prefabs/Ground_02.prefab
+  artifactKey: Guid(e2e682b966e3f644392ffbfab511e0e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/Prefabs/Ground_02.prefab using Guid(e2e682b966e3f644392ffbfab511e0e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37f6f0b8045ad95feecdbd0da59a8e14') in 0.357475 seconds 
+  Import took 0.365098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/SimpleNaturePack/Prefabs/Ground_03.prefab
+  artifactKey: Guid(3f9b178ccd3b86f4ebbfc1f5a2815e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/Prefabs/Ground_03.prefab using Guid(3f9b178ccd3b86f4ebbfc1f5a2815e56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5a030e5a92c9a218c879a5dc9780b32') in 0.029217 seconds 
+  Import took 0.037595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.419917 seconds.
+  path: Assets/SimpleNaturePack/Materials/SimpleNaturePack_BG.mat
+  artifactKey: Guid(886ecf0ee44718246aa083d8aad49b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/Materials/SimpleNaturePack_BG.mat using Guid(886ecf0ee44718246aa083d8aad49b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a94f739d3ed3726947a46b20cfdddfa6') in 0.046246 seconds 
+  Import took 0.057399 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/SimpleNaturePack/Materials/SimpleNaturePack_Texture_01.mat
+  artifactKey: Guid(93caadf4359ae8143aad35b3145d31af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SimpleNaturePack/Materials/SimpleNaturePack_Texture_01.mat using Guid(93caadf4359ae8143aad35b3145d31af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf0d801b47c43855d49e50d70e68ebca') in 0.029007 seconds 
+  Import took 0.037383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.791532 seconds.
+  path: Assets/Scenes/Main.unity
+  artifactKey: Guid(e3c250257b8ba31499bb35a7bb487d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main.unity using Guid(e3c250257b8ba31499bb35a7bb487d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9282922d8d425967efaeab91fa1af072') in 0.008882 seconds 
+  Import took 0.019508 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005534 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000162A9FF0450 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016276C44010 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016276695EF0 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.289 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2289ms)
+		BeginReloadAssembly (224ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (1910ms)
+			LoadAssemblies (159ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (564ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (825ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (154ms)
+				ProcessInitializeOnLoadAttributes (643ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (10ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (37ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2778 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.7 MB.
+System memory in use after: 130.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3497.
+Total: 5.364600 ms (FindLiveObjects: 0.405000 ms CreateObjectMapping: 0.203400 ms MarkObjects: 4.724500 ms  DeleteObjects: 0.029600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 347.593598 seconds.
+  path: Assets/MeleeWeapon.cs
+  artifactKey: Guid(8caab6bc26a691a4f901f0908633613e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MeleeWeapon.cs using Guid(8caab6bc26a691a4f901f0908633613e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bda5bcaeda29c0e0b7c49f03d2f94637') in 0.021079 seconds 
+  Import took 0.029992 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.013133 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000016271FBC030 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016276C44010 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016276695EF0 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.375 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3386ms)
+		BeginReloadAssembly (319ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (70ms)
+		EndReloadAssembly (2799ms)
+			LoadAssemblies (301ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (654ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (193ms)
+			SetupLoadedEditorAssemblies (794ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (237ms)
+				ProcessInitializeOnLoadAttributes (512ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
+				AfterProcessingInitializeOnLoad (19ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (37ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2778 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.7 MB.
+System memory in use after: 130.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3499.
+Total: 8.405400 ms (FindLiveObjects: 0.420700 ms CreateObjectMapping: 0.227400 ms MarkObjects: 7.712900 ms  DeleteObjects: 0.042400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.014698 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000016275020030 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016276C44010 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016276695EF0 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.13 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.963 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1964ms)
+		BeginReloadAssembly (179ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (1676ms)
+			LoadAssemblies (154ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (529ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (79ms)
+			SetupLoadedEditorAssemblies (621ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (175ms)
+				ProcessInitializeOnLoadAttributes (415ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (27ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2778 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.7 MB.
+System memory in use after: 130.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3501.
+Total: 5.832000 ms (FindLiveObjects: 1.088800 ms CreateObjectMapping: 0.233200 ms MarkObjects: 4.478200 ms  DeleteObjects: 0.029900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008107 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-00000162AA010490 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016276C44010 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016276695EF0 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.395 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2395ms)
+		BeginReloadAssembly (228ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (60ms)
+		EndReloadAssembly (2004ms)
+			LoadAssemblies (223ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (690ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (88ms)
+			SetupLoadedEditorAssemblies (636ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (186ms)
+				ProcessInitializeOnLoadAttributes (421ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (37ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2778 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.7 MB.
+System memory in use after: 130.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3503.
+Total: 8.365000 ms (FindLiveObjects: 1.365700 ms CreateObjectMapping: 0.557000 ms MarkObjects: 6.411100 ms  DeleteObjects: 0.029100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 128.361288 seconds.
+  path: Assets/EnemyHealth.cs
+  artifactKey: Guid(3be91b8228c175749a356a732020c15c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EnemyHealth.cs using Guid(3be91b8228c175749a356a732020c15c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8642f3e72e2c6d9a290546648cc92fbc') in 0.012627 seconds 
+  Import took 0.026029 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005332 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000016271DCD010 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016276C44010 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016276695EF0 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.021 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4022ms)
+		BeginReloadAssembly (214ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (67ms)
+		EndReloadAssembly (3344ms)
+			LoadAssemblies (180ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (936ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (835ms)
+			SetupLoadedEditorAssemblies (970ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (382ms)
+				ProcessInitializeOnLoadAttributes (551ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (42ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2778 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.7 MB.
+System memory in use after: 130.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3505.
+Total: 5.222000 ms (FindLiveObjects: 0.393800 ms CreateObjectMapping: 0.206000 ms MarkObjects: 4.590100 ms  DeleteObjects: 0.030400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008981 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000016271DCD010 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016276C44010 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000162A9A8AC60 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.21 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.145 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5145ms)
+		BeginReloadAssembly (379ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (17ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (113ms)
+		EndReloadAssembly (4528ms)
+			LoadAssemblies (337ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (2820ms)
+			ReleaseScriptCaches (6ms)
+			RebuildScriptCaches (108ms)
+			SetupLoadedEditorAssemblies (926ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (249ms)
+				ProcessInitializeOnLoadAttributes (643ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (29ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2778 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.8 MB.
+System memory in use after: 130.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3507.
+Total: 5.602200 ms (FindLiveObjects: 0.686900 ms CreateObjectMapping: 0.370200 ms MarkObjects: 4.512700 ms  DeleteObjects: 0.029700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009822 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file data-0000016275020030 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-0000016276C44010 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file data-00000162A9A8AC60 doesn't match image C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.546 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2547ms)
+		BeginReloadAssembly (197ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (2218ms)
+			LoadAssemblies (172ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (918ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (131ms)
+			SetupLoadedEditorAssemblies (570ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (162ms)
+				ProcessInitializeOnLoadAttributes (381ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (29ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2778 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.8 MB.
+System memory in use after: 130.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 3509.
+Total: 6.769400 ms (FindLiveObjects: 0.578300 ms CreateObjectMapping: 0.258600 ms MarkObjects: 5.887500 ms  DeleteObjects: 0.043100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
