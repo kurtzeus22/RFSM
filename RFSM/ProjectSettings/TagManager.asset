@@ -5,9 +5,6 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
-  - enemyWaypoints1
-  - Waypoints
-  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -15,7 +12,7 @@ TagManager:
   - ground
   - Water
   - UI
-  - enemy
+  - 
   - 
   - 
   - 
