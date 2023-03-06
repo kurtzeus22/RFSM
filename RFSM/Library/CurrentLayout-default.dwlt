@@ -21,7 +21,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: Game
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 471}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -121,10 +121,10 @@ MonoBehaviour:
     y: 30
     width: 1360
     height: 675
-  m_MinSize: {x: 911, y: 421}
+  m_MinSize: {x: 911, y: 442}
   m_MaxSize: {x: 22006, y: 10021}
   vertical: 0
-  controlID: 145
+  controlID: 94
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -146,10 +146,10 @@ MonoBehaviour:
     y: 0
     width: 568
     height: 675
-  m_MinSize: {x: 201, y: 421}
-  m_MaxSize: {x: 4001, y: 8021}
+  m_MinSize: {x: 201, y: 442}
+  m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 146
+  controlID: 95
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,8 +169,8 @@ MonoBehaviour:
     y: 0
     width: 568
     height: 346
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -196,8 +196,8 @@ MonoBehaviour:
     y: 346
     width: 568
     height: 329
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
@@ -461,9 +461,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_Size:
-    m_Target: 5.837769
+    m_Target: 6.6349106
     speed: 2
-    m_Value: 5.837769
+    m_Value: 6.6349106
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -622,9 +622,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 3e530000
       m_LastClickedID: 0
-      m_ExpandedIDs: 96d5ffffd4f9ffffd8f9ffffecf9fffff0f9fffff4f9fffff8f9ffff48faffff4cfaffff50faffff7cfaffff84faffff6cfbffff
+      m_ExpandedIDs: 92faffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -686,22 +686,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Materials
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Materials
+  - Assets
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Unity\OJT\Lamina - RFSM\Github\RFSM\RFSM
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 26520000
-    m_LastClickedID: 21030
-    m_ExpandedIDs: 00000000085200000a5200000c5200000e520000125200001452000016520000185200002252000000ca9a3b
+    m_SelectedIDs: f4520000
+    m_LastClickedID: 21236
+    m_ExpandedIDs: 00000000f4520000f6520000f8520000fa520000fc520000fe52000000530000025300000453000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -729,7 +729,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000085200000a5200000c5200000e5200001052000012520000145200001652000018520000
+    m_ExpandedIDs: 00000000f4520000f6520000f8520000fa520000fc520000fe520000005300000253000004530000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -756,7 +756,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: 8e4d0000044b0000e64c00001c4b00005cb70000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -817,7 +817,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 380
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_LockTracker:
     m_IsLocked: 0
