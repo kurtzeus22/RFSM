@@ -20,11 +20,13 @@ public class UIScript : MonoBehaviour
 
     public void Back()
     {
+        print("main menu");
         SceneManager.LoadScene(backScene);
     }
 
     public void StartGame()
     {
+        print("scene");
         SceneManager.LoadScene(gameScene); 
     }
 }
