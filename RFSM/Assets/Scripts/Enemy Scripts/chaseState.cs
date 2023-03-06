@@ -10,8 +10,11 @@ public class chaseState : StateMachineBehaviour
     public float lookRadius = 5f;
     public float attackRange = 2.5f;
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
+
+
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
+
         player = PlayerManager.instance.player.transform;
         agent = animator.GetComponent<NavMeshAgent>();
         agent.speed = 5f;
@@ -28,7 +31,9 @@ public class chaseState : StateMachineBehaviour
         }
         if (distance < attackRange)
         {
+
             animator.SetBool("isAttacking", true);
+
         }
     }
 

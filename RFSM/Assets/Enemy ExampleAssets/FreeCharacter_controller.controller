@@ -129,7 +129,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 0
-  lookRadius: 4
+  lookRadius: 10
 --- !u!114 &-5966430426752627258
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -142,8 +142,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 22fd24010b6121d42a98ad71579e693d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lookRadius: 5
-  attackRange: 2.5
+  lookRadius: 20
+  attackRange: 10
 --- !u!1101 &-5922467884664886790
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -181,7 +181,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f4b2ae0dd2f402419bd7c45952015e2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lookRadius: 4
+  lookRadius: 20
 --- !u!1101 &-4465660536994730776
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
@@ -422,7 +422,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400004, guid: e1345f231bddd7a488397fb5ca71c0cb, type: 3}
+  m_Motion: {fileID: 7400000, guid: e875d32a43c87544fbecaf4fc37986d9, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -468,7 +468,7 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 110200000}
-    m_Position: {x: 220, y: 20, z: 0}
+    m_Position: {x: 210, y: 20, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 110299460}
     m_Position: {x: 220, y: 170, z: 0}
