@@ -15,7 +15,4 @@ public class RangeAttack : MonoBehaviour
         var fire = Instantiate(attackPrefab, attackSpawnPoint.position, attackSpawnPoint.rotation);
         fire.GetComponent<Rigidbody>().velocity = attackSpawnPoint.forward * bulletSpeed; 
     }
-
-    
-
 }
