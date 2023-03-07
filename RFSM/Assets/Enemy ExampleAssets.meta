@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:RFSM/Assets/Enemy ExampleAssets.meta
 guid: 6209caf137af446479c8c7cff64ee141
+========
+guid: 796606c48558ca54a8a5f6d25be06a63
+>>>>>>>> chard:RFSM/Assets/Scripts/Controllers.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
