@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1366
     height: 685
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Project
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 492}
   m_MaxSize: {x: 10000, y: 10000}
@@ -121,10 +121,10 @@ MonoBehaviour:
     y: 30
     width: 1366
     height: 635
-  m_MinSize: {x: 910, y: 442}
-  m_MaxSize: {x: 22005, y: 10021}
+  m_MinSize: {x: 911, y: 442}
+  m_MaxSize: {x: 22006, y: 10021}
   vertical: 0
-  controlID: 37
+  controlID: 110
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -149,7 +149,7 @@ MonoBehaviour:
   m_MinSize: {x: 201, y: 442}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 38
+  controlID: 88
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,8 +169,8 @@ MonoBehaviour:
     y: 0
     width: 656
     height: 371
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -196,8 +196,8 @@ MonoBehaviour:
     y: 371
     width: 656
     height: 264
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 12}
   m_Panes:
   - {fileID: 12}
@@ -277,8 +277,8 @@ MonoBehaviour:
     y: 0
     width: 276
     height: 635
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -461,11 +461,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.015000726, y: 0.00090662256, z: 0.000011581823, w: -0.9999238}
     speed: 2
-    m_Value: {x: 0.015000176, y: 0.00090658927, z: 0.000011581397, w: -0.9998871}
+    m_Value: {x: 0.015000727, y: 0.0009066226, z: 0.000011581823, w: -0.9999239}
   m_Size:
     m_Target: 119.180405
     speed: 2
-    m_Value: 124.796234
+    m_Value: 119.180405
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -753,7 +753,7 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: ae4d0000
+      m_SelectedIDs: 14550000
       m_LastClickedID: 0
       m_ExpandedIDs: 6cfbffff
       m_RenameOverlay:
@@ -817,22 +817,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Presets
+    - Assets/Materials
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 16
   m_LastFolders:
-  - Assets/Presets
+  - Assets/Materials
   m_LastFoldersGridSize: 16
   m_LastProjectPath: C:\Users\Kurados\Documents\GitHub\RFSM\RFSM
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 72570000
-    m_LastClickedID: 22386
-    m_ExpandedIDs: 000000002a5700002c5700002e57000030570000325700003457000036570000385700003a5700003c5700003e57000000ca9a3b
+    m_SelectedIDs: f6540000
+    m_LastClickedID: 21750
+    m_ExpandedIDs: 00000000b4540000b6540000b8540000ba540000bc540000be540000c0540000c2540000c4540000c6540000c854000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -860,7 +860,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000002a5700002c5700002e57000030570000325700003457000036570000385700003a5700003c5700003e570000
+    m_ExpandedIDs: 00000000b4540000b6540000b8540000ba540000bc540000be540000c0540000c2540000c4540000c6540000c8540000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
