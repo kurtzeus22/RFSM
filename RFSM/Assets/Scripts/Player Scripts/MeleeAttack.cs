@@ -29,7 +29,7 @@ public class MeleeAttack : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(PlayerAnim.GetCurrentAnimatorStateInfo(0).normalizedTime > 0.7f && PlayerAnim.GetCurrentAnimatorStateInfo(0).IsName("Attacking"))
+        if (PlayerAnim.GetCurrentAnimatorStateInfo(0).normalizedTime > 0.7f && PlayerAnim.GetCurrentAnimatorStateInfo(0).IsName("Attacking"))
         {
             PlayerAnim.SetBool("comboHit0", false);
         }
@@ -49,11 +49,11 @@ public class MeleeAttack : MonoBehaviour
 
         // cooldown
 
-        if(Time.time - lastClickTime < maxComboDelay)
+        if (Time.time - lastClickTime < maxComboDelay)
         {
             noOfClicks = 0;
         }
-        if(Time.time > nextFireTime)
+        if (Time.time > nextFireTime)
         {
             if (Input.GetMouseButtonDown(0))
             {
@@ -61,33 +61,33 @@ public class MeleeAttack : MonoBehaviour
             }
         }
     }
-   
+
     // Called by an animation event at the end of the attack animation
 
     //for combo
     void OnCLick()
-{
-    lastClickTime = Time.time;
-    noOfClicks++;
-    // only set comboHit0 to true if this is the first attack or combo
-    if (noOfClicks == 1) {
-        PlayerAnim.SetBool("comboHit0", true);
-    }
-    noOfClicks = Mathf.Clamp(noOfClicks, 0, 4); // minimum or maximum range
+    {
+        lastClickTime = Time.time;
+        noOfClicks++;
+        // only set comboHit0 to true if this is the first attack or combo
+        if (noOfClicks == 1) {
+            PlayerAnim.SetBool("comboHit0", true);
+        }
+        noOfClicks = Mathf.Clamp(noOfClicks, 0, 4); // minimum or maximum range
 
-    //check if number of clicks is larger or equals to 2// Checking if the current animation is done or finish // if it is bool set to false in combo 0
-    if(noOfClicks >= 2 && PlayerAnim.GetCurrentAnimatorStateInfo(0).normalizedTime > 0.7f && PlayerAnim.GetCurrentAnimatorStateInfo(0).IsName("Attacking"))
+        //check if number of clicks is larger or equals to 2// Checking if the current animation is done or finish // if it is bool set to false in combo 0
+        if (noOfClicks >= 2 || PlayerAnim.GetCurrentAnimatorStateInfo(0).normalizedTime > 0.7f && PlayerAnim.GetCurrentAnimatorStateInfo(0).IsName("Attacking"))
     {
             Debug.Log("Attaking anim is done!!");
         PlayerAnim.SetBool("comboHit0", false);
         PlayerAnim.SetBool("comboHit1", true);
     }
-    if (noOfClicks >= 3 && PlayerAnim.GetCurrentAnimatorStateInfo(0).normalizedTime > 0.7f && PlayerAnim.GetCurrentAnimatorStateInfo(0).IsName("AttackCombo1"))
+    if (noOfClicks >= 3 || PlayerAnim.GetCurrentAnimatorStateInfo(0).normalizedTime > 0.7f && PlayerAnim.GetCurrentAnimatorStateInfo(0).IsName("AttackCombo1"))
     {
         PlayerAnim.SetBool("comboHit1", false);
         PlayerAnim.SetBool("comboHit2", true);
     }
-    if (noOfClicks >= 4 && PlayerAnim.GetCurrentAnimatorStateInfo(0).normalizedTime > 0.7f && PlayerAnim.GetCurrentAnimatorStateInfo(0).IsName("AttackCombo2"))
+    if (noOfClicks >= 4 || PlayerAnim.GetCurrentAnimatorStateInfo(0).normalizedTime > 0.7f && PlayerAnim.GetCurrentAnimatorStateInfo(0).IsName("AttackCombo2"))
     {
         PlayerAnim.SetBool("comboHit2", false);
         PlayerAnim.SetBool("comboHit3", true);
