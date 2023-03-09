@@ -11,6 +11,8 @@ public class MainmenuScript : MonoBehaviour
     public GameObject settingsPanel;
     public GameObject exitPanel;
 
+    public GameObject mainMenu;
+
     void Start()
     {
         
@@ -38,21 +40,25 @@ public class MainmenuScript : MonoBehaviour
 
     public void CreditsPanelOn()
     {
+        mainMenu.SetActive(false);
         creditsPanel.SetActive(true);
     }
 
     public void CreditsPanelOff()
     {
+        mainMenu.SetActive(true);
         creditsPanel.SetActive(false);
     }
 
     public void SettingsPanelOn()
     {
+        mainMenu.SetActive(false);
         settingsPanel.SetActive(true);
     }
 
     public void SettingsPanelOff()
     {
+        mainMenu.SetActive(true);
         settingsPanel.SetActive(false);   
     }
 
