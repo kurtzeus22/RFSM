@@ -2606,7 +2606,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 31.611877, y: -1.2956543}
+  m_AnchoredPosition: {x: 31.611816, y: -1.2956543}
   m_SizeDelta: {x: 1178.0752, y: 818.0231}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1414347802
@@ -15294,6 +15294,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   weaponCollider: {fileID: 1377909003}
   PlayerAnim: {fileID: 7375908065652035792}
+  coolDownTime: 0.8
 --- !u!114 &7375908065661526704
 MonoBehaviour:
   m_ObjectHideFlags: 0
