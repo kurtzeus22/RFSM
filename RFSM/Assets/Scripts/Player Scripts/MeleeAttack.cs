@@ -1,11 +1,12 @@
-using System.Collections;
-using System.Collections.Generic;
+using UnityEngine.EventSystems;
 using UnityEngine;
 
 public class MeleeAttack : MonoBehaviour
 {
     public Collider weaponCollider;
     public Animator PlayerAnim;
+
+
 
     // Im creating combos
     //declaration of vars
@@ -55,6 +56,8 @@ public class MeleeAttack : MonoBehaviour
         }
         if (Time.time > nextFireTime)
         {
+            if (EventSystem.current.IsPointerOverGameObject())
+                return;
             if (Input.GetMouseButtonDown(0))
             {
                 OnCLick();
