@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class movement : MonoBehaviour
 {
+
     public Animator PlayerAnim;
     private float xInput;// x input
     private float yInput;// y input

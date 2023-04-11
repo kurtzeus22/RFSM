@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class MeleeWeapon : MonoBehaviour
 {
-    public float damageAmount = 10f; // The amount of damage the weapon will apply to enemies
+    [SerializeField]
+    private float damageAmount = 10f; // The amount of damage the weapon will apply to enemies
     public LayerMask enemyLayer; // The layer that enemies are on
 
     private void OnTriggerEnter(Collider other)
