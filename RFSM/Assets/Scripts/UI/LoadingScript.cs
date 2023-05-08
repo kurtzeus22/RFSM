@@ -9,7 +9,7 @@ public class LoadingScript : MonoBehaviour
     public GameObject loadingScreen;
     public Slider slider;
     
-    public void LoadLevel(int sceneIndex)   //put this to button. 
+    public void LoadLevel(int sceneIndex)   //put this to button. for example start button
     {
 
         StartCoroutine(loadAsync(sceneIndex));
