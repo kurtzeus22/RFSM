@@ -16490,6 +16490,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 1084137602}
+        m_TargetAssemblyTypeName: LoadingScript, Assembly-CSharp
+        m_MethodName: LoadLevel
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1305602366
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19454,7 +19466,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 24300002, guid: 158b6ce86fa0b26449ea7a02521844fe, type: 2}
-  m_audioClip: {fileID: 8300000, guid: 31b815d52fc4e7b4f9e1f959aa3e8239, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 64858dd1317dc47479edf1d53f8357f3, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
