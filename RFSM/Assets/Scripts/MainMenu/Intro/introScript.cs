@@ -8,6 +8,7 @@ public class introScript : MonoBehaviour
     public GameObject Splash;
 
     public GameObject IntroManager;
+    public GameObject Menu;
 
     public GameObject BGMusic;
     void Start()
@@ -24,6 +25,7 @@ public class introScript : MonoBehaviour
         {
             IntroManager.SetActive(false);
             BGMusic.SetActive(true);
+            Menu.SetActive(true);
         }
     }
 
