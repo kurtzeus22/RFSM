@@ -12,7 +12,10 @@ public class Health : MonoBehaviour
     public Sprite fullHeart; //fullheart kapag puno pa heart icon
     public Sprite emptyHeart; //ung image na wala nang pula ung heart icon
     public GameObject Player; //player
-    public GameObject playerBody; //animator ng player
+    public GameObject playerBodyBoy; //animator ng player
+    public GameObject playerBodyGirl; //animator ng player
+    GameObject playerBody;
+
     public bool isInAnim; //if naka death animation, or hit animation di magooverlap sa ibang animation
     public static bool playerHit; //kapag naka true to, invincible yung player
     public static bool isHit; //kapag tumama, di naooverlap ung animation
@@ -23,6 +26,12 @@ public class Health : MonoBehaviour
 
     void Start() 
     {
+        if(Movement.PlayerSkin == 1){
+            playerBody = playerBodyBoy;
+        }
+        else if(Movement.PlayerSkin == 2){
+            playerBody = playerBodyGirl;
+        }
         playerCollider = GetComponent<Collider>();
         playerCollider.enabled = playerCollider.enabled;
         damageReminder.enabled = false;

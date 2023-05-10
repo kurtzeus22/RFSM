@@ -7,6 +7,8 @@ public class CharacterSelectionUI : MonoBehaviour
 
     public Transform prevCharacter;
     public Transform selectedCharacter;
+    public GameObject PlayerBoy;
+    public GameObject PlayerGirl;
 
     private void Start()
     {
@@ -42,6 +44,15 @@ public class CharacterSelectionUI : MonoBehaviour
         if (prevCharacter != null)
         {
             //prevCharacter.localScale = Vector3.Lerp(prevCharacter.localScale, new Vector3(1f, 1f, 1f), Time.deltaTime * 10);
+        }
+
+        if(PlayerBoy.activeSelf){
+            Movement.PlayerSkin = 1;
+            Debug.Log("Player Boy");
+        }
+        else if(PlayerGirl.activeSelf){
+            Movement.PlayerSkin = 2;
+            Debug.Log("Player Girl");
         }
     }
 }

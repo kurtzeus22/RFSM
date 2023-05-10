@@ -23,7 +23,9 @@ public class ThrowScript : MonoBehaviour
     public float throwUpwardForce;
 
     //Player Model
-    public GameObject PlayerModel;
+    public GameObject PlayerModelBoy;
+    public GameObject PlayerModelGirl;
+    GameObject PlayerModel;
     public GameObject TrailRenderer;
 
     //Skill 1
@@ -61,6 +63,13 @@ public class ThrowScript : MonoBehaviour
 
     private void Start()
     {
+        if(Movement.PlayerSkin == 1){
+            PlayerModel = PlayerModelBoy;
+            PlayerModelGirl.SetActive(false);
+        }
+        else if(Movement.PlayerSkin == 2){
+            PlayerModel = PlayerModelGirl;
+        }
         Skill1AnimCheck = false;
         readyToThrow = true;
         Skill2AnimCheck = false;

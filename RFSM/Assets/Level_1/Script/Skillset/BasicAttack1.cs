@@ -11,14 +11,31 @@ public class BasicAttack1 : MonoBehaviour
     public GameObject GunCamera; //fps camera
     public GameObject MainAim; //main camera on non-charge attack
     public GameObject ChargeAim; //camera during charged attack
-    public GameObject PlayerModel; //player animator
+    public GameObject PlayerModelBoy; //player animator for boy
+    public GameObject PlayerModelGirl; //player animator for girl
+    GameObject PlayerModel; //player animator main
     public GameObject AttackTrigger; //left click pang damage sa kalaban
     public GameObject ChargeAttackTrigger; //right click pang damage sa kalaban
-    public GameObject Hammer; // Skill 1
-    public GameObject KnucklesRight; // Skill 2
-    public GameObject KnucklesLeft; // Skill 2
-    public GameObject gun; //Skill 3
-    public GameObject staff; //Skill 4
+    public GameObject HammerBoy; // Skill 1
+    public GameObject HammerGirl; // Skill 1
+    GameObject Hammer;
+
+    public GameObject KnucklesRightBoy; // Skill 2
+    public GameObject KnucklesRightGirl;
+    GameObject KnucklesRight;
+
+    public GameObject KnucklesLeftBoy; // Skill 2
+    public GameObject KnucklesLeftGirl;
+    GameObject KnucklesLeft;
+
+    public GameObject gunBoy; //Skill 3
+    public GameObject gunGirl;
+    GameObject gun;
+
+    public GameObject staffBoy; //Skill 4
+    public GameObject staffGirl;
+    GameObject staff;
+
     public int comboCount; //3 hit combo count
     public static bool basicAttack; //if basic attack walang papatong na animation
     public static bool chargeAttack; //if charge attach, walang papatong na animation
@@ -32,7 +49,10 @@ public class BasicAttack1 : MonoBehaviour
     public GameObject HammerChargeEffect; //vfx ng charged hammer
     public GameObject HammerhitFinEffect; //vfx pag tumama na ung hammer
 
-    public Transform KnucklePosition; //position ng gloves
+    public Transform KnucklePositionBoy; //position ng gloves
+    public Transform KnucklePositionGirl;
+    Transform KnucklePosition;
+
     public GameObject KnuckleHitEffect; //vfx ng knuckles
     public GameObject KnuckleChargeEffect; //vfx ng charge attack ng knuckles
     public GameObject KnuckleChargeHitEffect; //vfx pag tumama sa kalaban ung knuckles
@@ -81,6 +101,26 @@ public class BasicAttack1 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        if(Movement.PlayerSkin == 1){
+            PlayerModel = PlayerModelBoy;
+            Hammer = HammerBoy;
+            KnucklesRight = KnucklesRightBoy;
+            KnucklesLeft = KnucklesLeftBoy;
+            gun = gunBoy;
+            staff = staffBoy;
+            KnucklePosition = KnucklePositionBoy;
+            PlayerModelGirl.SetActive(false);
+        }
+        else if(Movement.PlayerSkin == 2){
+            PlayerModel = PlayerModelGirl;
+            Hammer = HammerGirl;
+            KnucklesRight = KnucklesRightGirl;
+            KnucklesLeft = KnucklesLeftGirl;
+            gun = gunGirl;
+            staff = staffGirl;
+            KnucklePosition = KnucklePositionGirl;
+            PlayerModelBoy.SetActive(false);
+        }
         isReloading = false;
         hasGun = false;
         MainAim.SetActive(true);

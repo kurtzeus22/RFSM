@@ -3598,6 +3598,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -3.332
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 71f06f543eaeb9e46bc05a31b48c7791, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: a8b50cfee3935cb488bc7292377f8e7a, type: 2}
     - target: {fileID: 919132149155446097, guid: 71f06f543eaeb9e46bc05a31b48c7791, type: 3}
       propertyPath: m_Name
       value: Hammer_01
@@ -3668,6 +3672,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -87.44
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 4a27f0fb18bcecb47b8d3c2888bf8d12, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: e18458d063976e44094aa8b803b74ad5, type: 2}
     - target: {fileID: 919132149155446097, guid: 4a27f0fb18bcecb47b8d3c2888bf8d12, type: 3}
       propertyPath: m_Name
       value: Gun
@@ -3742,6 +3750,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 27.192
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 8a677ddd9ae4a044c9de1422e9e7146f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: d2aa0854c4513e6419b995cce6dfe28c, type: 2}
     - target: {fileID: 919132149155446097, guid: 8a677ddd9ae4a044c9de1422e9e7146f, type: 3}
       propertyPath: m_Name
       value: Staff

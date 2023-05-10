@@ -12,7 +12,12 @@ public class Movement : MonoBehaviour
 {
     public CharacterController controller;
     public Transform cam;
-    public GameObject PlayerModel;
+    public GameObject PlayerModelBoy;
+    public GameObject Geo;
+    public GameObject PlayerModelGirl;
+    GameObject PlayerModel;
+    // public int WhatTypeOfPlayer; //1 = boy, 2 = girl
+    public static int PlayerSkin; //BAGUHIN DITO IF BOY OR GIRL
 
     public static float speed = 12f;
     public float gravity = -9.81f;
@@ -34,7 +39,15 @@ public class Movement : MonoBehaviour
     private bool m_isAxisInUse = false;
 
     void Start(){
-
+        // PlayerSkin = WhatTypeOfPlayer;
+        if(PlayerSkin == 1){
+            PlayerModel = PlayerModelBoy;
+            PlayerModelGirl.SetActive(false);
+        }
+        else if(PlayerSkin == 2){
+            PlayerModel = PlayerModelGirl;
+            PlayerModelBoy.SetActive(false);
+        }
     }
     // Update is called once per frame
     void Update()
